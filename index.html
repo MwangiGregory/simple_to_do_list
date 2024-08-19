@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <style>
+        .crossed {
+            text-decoration: line-through;
+        }
+
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Task Manager</h1>
+    <p>Enter a task in the input field, click 'Add Task' to add it to the list. Click on a task to cross it off or click 'Remove' to delete it.</p>
+
+    <form id="taskForm">
+        <input type="text" id="newTask" placeholder="Enter new task">
+        <button id="submit" type="submit">Add Task</button>
+    </form>
+
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
